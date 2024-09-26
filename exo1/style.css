@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0 5px;
+    color: white;
+}
+nav{
+background-color: violet;
+height: 80px;
+}
+.menu{
+    background-color: yellow;
+    
+}
+.main{
+    background-color: purple;
+    height: 500px;
+    border: 20px solid lightblue;
+}
+.footer{
+    background-color: navy;
+    height: 70px;
+}

@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: black;
+    color: whitesmoke;
+    border-left: 10px solid  whitesmoke;
+    border-right: 10px solid  whitesmoke;
+}
+nav{
+    background: violet;
+    height: 60px;
+}
+.menu{
+    background-color: yellow;
+}
+.firstPart{
+    background-color: red;
+    height: 100px;
+    color: darkgrey;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+section{
+    width: 100%;
+    display: flex;
+
+}
+.centerLeft{
+    background-color: navy;
+    height: 250px;
+    width: 50%;
+}
+.centerRight{
+    background-color: green;
+    height: 250px;
+    width: 50%;
+}
+footer{
+    background-color: lightcoral;
+    height: 40px;
+}

@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 100px;
+    background-color: black;
+    color: white;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section{
+    width: 900px;
+    border-left: 15px solid white;
+    border-right: 15px solid white;
+    /* position: absolute;    */
+    /* display: flex;
+    justify-content: center;
+    text-align: center; */
+
+}
+nav{
+    background-color: violet;
+    height: 60px;
+   
+}
+.menu{
+    background-color: yellow;
+}
+main{
+    
+    border: 20px solid teal;
+}
+
+.middle1, .middle2{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: grey;
+}
+.middle1{
+    background-color: red;
+    height: 120px;
+}
+.middle2{
+    background-color: navy;
+    height: 300px;
+}
+footer{
+    background-color: rgba(231, 60, 60, 0.73);
+    height: 50px;
+}
